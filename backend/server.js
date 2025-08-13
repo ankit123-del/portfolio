@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // Apna MongoDB URI yaha daalo
-const mongoURI = "mongodb+srv://aw:Sunil123@cluster0.v0vzkfn.mongodb.net/contactDB?retryWrites=true&w=majority";
+const mongoURI = ;
 
 // MongoDB connect
 mongoose.connect(mongoURI, {
